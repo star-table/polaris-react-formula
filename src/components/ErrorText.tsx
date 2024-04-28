@@ -1,5 +1,5 @@
 import React, { useMemo, useContext } from 'react';
-import { Icon } from 'polaris-react-component';
+import Icon from 'polaris-icon';
 import type { FC } from 'react';
 import { store } from '../store';
 import { prefixCls, ErrorMap } from '../config';

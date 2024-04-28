@@ -14,6 +14,9 @@ dependencies:
   codemirror:
     specifier: 5.65.8
     version: 5.65.8
+  polaris-icon:
+    specifier: ^8.5.0
+    version: 8.5.0(react-dom@18.2.0)(react@18.2.0)
   polaris-react-component:
     specifier: ^0.18.1
     version: 0.18.1(polaris-icon@8.5.0)(polaris-shared@1.2.0)(react-dom@18.2.0)(react@18.2.0)

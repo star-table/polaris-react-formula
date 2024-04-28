@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/weishaodaren/polaris-react-formula.git"
   },
-  "version": "7.3.4",
+  "version": "7.3.5",
   "type": "module",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc --emitDeclarationOnly --project ./tsconfig.json",
+    "build": "rm -rf dist && vite build && tsc --emitDeclarationOnly --project ./tsconfig.json",
     "preview": "vite preview",
     "release": "pnpm build && pnpm publish --no-git-checks",
     "lint": "eslint --fix --ext .tsx,.ts src"
@@ -56,6 +56,7 @@
     "@formulajs/formulajs": "^3.1.7",
     "antd": "^4.23.6",
     "codemirror": "5.65.8",
+    "polaris-icon": "^8.5.0",
     "polaris-react-component": "^0.18.1",
     "react-codemirror2": "^7.2.1"
   },

@@ -5,7 +5,7 @@ import React, {
   useCallback,
   useMemo,
 } from 'react';
-import { Icon } from 'polaris-react-component';
+import Icon from 'polaris-icon';
 
 import type { FC, MouseEvent } from 'react';
 import type { FunctionItem, Variable, FunctionGroup } from '../types';
