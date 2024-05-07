@@ -7,8 +7,6 @@ import React, {
 } from 'react';
 import { Modal, Tooltip } from 'antd';
 import Icon from 'polaris-icon';
-import 'antd/lib/tooltip/style/index';
-import 'antd/lib/modal/style/index';
 
 import type { FC } from 'react';
 import type { Variable } from '../types';
